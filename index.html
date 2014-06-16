@@ -1,0 +1,420 @@
+<!doctype html5>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title> Proyecto de Fin de Grado </title>
+		
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Tulpen+One|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+		<link href="css/impress-demo.css" rel="stylesheet" />
+
+
+	</head>
+
+	<body class="impress-not-supported">
+
+		<div class="fallback-message">
+			<p>
+				Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.
+			</p>
+			<p>
+				For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.
+			</p>
+		</div>
+
+		<div id="impress">
+			
+			<div id="init"  class="step" data-x="0" data-y="0"  data-scale="10">
+				<h2> <span>Trabajo de Fin de Máster en Técnicas para la Investigación, Desarrollo e Innovación en Ciencias e Ingeniería. </span></h2>
+				<h1> Asistente de conducción en intersecciones mediante dispositivos móviles </h1>
+				<div id="centrarimagen">
+                     <img id="img1" src="img/ull.png" alt="ull" height="150" width="300">
+                </div>
+				<h3>Directora: <span>Candelaria Hdez Goya</span></h3>
+				<h3> Alumna: <span>Alexandra Rivero Garc&iacutea</span> </h3>
+			</div>
+
+			<div id="indice" class="step" data-x="19000" data-y="0" data-rotate="20" data-scale="10">
+                <h1> &Iacutendice de contenidos</h1>
+				<h2> - Introducción. </h2>
+				<h2> - Redes vehiculares: <span>VANETs</span>.</h2>
+				<h2> - Problema de las intersecciones. </h2>
+		        <h2> - Desarrollo de resultados: <span>CrossRoad</span>.</h2>
+		        <h2> - Conclusiones y trabajos futuros. </h2>
+			</div>
+
+			<div id="introduction" class="step" data-x="15000" data-y="-20000" data-z="0" data-rotate-y="360" data-scale="10">
+				<h1> Introduction  </h1>
+                <h2> - System to <span> priorize </span> vehicles at crossroads. </h2>
+                <h2> - Method for monitoring vehicles at road intersecctions.</h2>
+                <h2> - The system designed is <span>CrossRoad</span>.</h2>
+                <h3> (A passage control at intersections by a mobile vehicular network)</h3>
+                <div id="gorighttop3">
+					<img id="logo" src="img/logo3.png" alt="logo" height="200" width="200">
+				</div>
+            </div>
+
+            <div id="objective" class="step" data-x="15000" data-y="-20000" data-z="-5000" data-rotate-y="90" data-scale="1">
+				<h2> The main Objective:  </h2>
+                <h3> - <span>Improve driving safety</span> by using an assistant. </h3>
+                <h3> - <span>Decreasing the number of accidents. </h3>
+                <div id="tresimages" style="margin-top: 50px;"> 
+                	<img src="img/car1.gif" height="200" width="250"/>
+                	<img src="img/car2.gif" height="200" width="250"/>
+                	<img src="img/car3.gif" height="200" width="250"/>
+                </div>
+             
+            </div>
+
+			<div id="vanets1"  class="step" data-x="1000" data-y="-19000" data-z="-5000" data-rotate-y="90" data-scale="1">
+				<div id="centrarimagen"> 
+					<h1> Vehicular Ad-Hoc Network (VANET)</h1>
+					<img id="city" src="img/city.jpg" alt="city" height="300" width="700" style="margin: 30px 0px 20px 0px;">
+				</div>
+				
+            </div>
+
+          
+            <div id="adhoc" class="step" data-x="198000" data-y="70000" data-z="-40" data-rotate-y="0" data-rotate-z="10" data-scale="6">
+				<h1> Redes Ad-hoc</h1>
+			    <h2> - Redes inalámbricas descentralizadas. </h2>
+                <h2> - Sin dependencia de la infraestructura. </h2>
+                <h3> (Redes cableadas, routers o puntos de acceso) </h3>
+                <h2> - Cada nodo reparte y reenvía. </h2>
+                <h3> (Intercambio de datos dinámico)</h3>
+            </div>
+
+           
+          
+            <div id="vanets2" class="step" data-x="8000" data-y="90000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+				<h2> Redes Ad-Hoc Móviles <span> MANETs </span> </h2>
+				<h1> VANETs</h1>
+                <h2> - Red en la que los nodos son vehículos. </h2>
+                <h2> - Redes dinámicas. </h2>
+           		<div id="goright">
+					<img id="red2" src="img/red2.gif" alt="red2" height="200" width="300">
+				</div>
+			</div>
+
+			<div id="vanets3" class="step" data-x="30000" data-y="90000" data-z="0" data-rotate-y="0" data-rotate-z="60" data-scale="5">
+				<div id="centrarimagen">
+					<h2>Ejemplo de comunicación VANET</h2>
+				</div>
+				<div id="centrarimagen">
+					<img id="vanet1" src="img/vanet.jpg" alt="vanet1" height="500" width="500" style="margin-top: 50px;">
+				</div>
+			</div>
+
+			<div id="vanets4" class="step" data-x="38000" data-y="90000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="5">
+				<h2> Idea <span>"Simple"</span> con desafíos <span>teóricos</span> y <span>técnicos</span>: </h2>
+				<h3> - Protocolos de enrutamiento. </h3>
+				<h3> - Rangos de transmisión. </h3>
+				<h3> - Frecuencias. </h3>
+				<h3> - <span> Calidad del servicio. </span></h3>
+				<div id="gorighttop">
+					<img id="red" src="img/red.gif" alt="red" height="250" width="250">
+				</div>
+
+                     
+			</div>
+
+    		<div id="comunicacion1" class="step" data-x="35000" data-y="100000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+				<h1>Tipos de comunicación en las VANETs </h1>
+				<h2> - <span> Vehicle-to-Vehicle </span> (V2V) </h2>
+				<h2> - <span> Vehicle-to-Infraestructure </span> (V2I) </h2>
+				<div id="centrarimagen">
+					<img id="vanet2" src="img/vanet2.jpg" alt="vanet1" height="300" width="600" style="margin-top: 50px;">
+				</div>	
+              
+			</div>
+
+			<div id="comunicacion2" class="step" data-x="-35000" data-y="100000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+				<h1> Configuraciones en la comunicación de las VANETs</h1>
+				<h2> - Propagación de alertas. </h2>
+				<h2> - Comunicación de grupo. </h2>
+				<h2> - Balizamiento. </h2>
+				<h2> - Alertas. </h2>
+				<div id="goright">
+					<img id="road" src="img/road.gif" alt="road" height="200" width="300">
+				</div>
+			</div>
+
+
+			<div id="propagacion" class="step" data-x="-35000" data-y="150000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+				<h1> Propagación de alertas (V2V) </h1>
+				<img id="v2v1" src="img/v2v1.png" alt="v2v">
+				<h2>Envío de mensajes a un vehículo o grupo de estos, como vehículo de emergencia. </h2>
+
+			</div>
+
+			<div id="grupos" class="step" data-x="-30000" data-y="150000" data-z="-5000" data-rotate-y="90" data-rotate-z="0" data-scale="9">
+				<h1> Comunicación de grupos (V2V) </h1>
+				<img id="v2v2" src="img/v2v2.png" alt="v2v2">
+				<h2>Envío entre vehículos con características específicas, estáticas o dinámicas. </h2>
+			</div>
+
+			<div id="balizamiento" class="step" data-x="-35000" data-y="150000" data-z="-10000" data-rotate-y="180" data-rotate-z="0" data-scale="10">
+				<h1> Balizamiento (V2V) </h1>
+				<img id="v2v3" src="img/v2v3.png" alt="v2v3">
+				<h2>Los mensajes baliza se envían periódicamente con datos del vehículo (velocidad o estado de los frenos).</h2>
+			</div>
+
+			<div id="alertas" class="step" data-x="-40000" data-y="150000" data-z="-5000" data-rotate-y="270" data-rotate-z="0" data-scale="9">
+				<h1> Alertas (I2V/V2I)</h1>
+				<img id="v2v4" src="img/v2v4.png" alt="v2v4">
+				<h2> Envio desde la infraestructura cuando se detecta un peligro potencial. Útilies para la seguridad vial.</h2>
+			</div>
+
+			<div id="seguridad" class="step" data-x="-40000" data-y="160000" data-z="-1000" data-rotate-y="0" data-rotate-z="0" data-scale="6">
+				<h1> Requisitos de seguridad para las VANETs</h1>
+				<h2> - Identificación entidades. </h2>
+				<h2> - Auntenticación entidades/atributos. </h2>
+				<h2> - Preservación privacidad. </h2>
+				<h2> - No repudio. </h2>
+				<h2> - Confidencialidad. </h2>
+				<h2> - Disponibilidad. </h2>
+				<h2> - Información verdadera. </h2>
+				<div id="goright2">
+					<img id="img3" src="img/seguridad.gif" alt="nfc" height="300" width="340">
+				</div>
+			</div>
+
+			<div id="tecnologias" class="step" data-x="4000" data-y="209000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+				<h1>Tecnologías de comunicación inalámrica. </h1>
+				<div id="centrarimagen"> 
+					<h2> Wifi-Direct - Bluetooth - ZigBee - <span>WAVE</span> </h2>
+				 	<h3>(Wireless Access in Vehicular Environment)</h3>
+					<img id="eff" src="img/eff.gif" alt="eff" height="300" width="400" style="margin: 30px 0px 20px 0px;">
+					<h3> <span>Problemas:</span> Limitada capacidad/cobertura y conexión con otros sensores. </h3>
+				</div>
+				
+			</div>
+
+			<div id="cloud" class="step" data-x="16000" data-y="210000" data-z="0" data-rotate-y="180" data-rotate-z="0" data-scale="10">
+				<div id="centrarimagen">
+				<h1>La nube</h1>
+				<h2> WiFi - 3G - 4G/LTE </h2>
+				<img id="vanet2" src="img/vanet1.png" alt="vanet2" height="450" width="700" style="margin-top: 20px;">
+				</div>
+
+			</div>
+
+			<div id="tecnologia" class="step" data-x="18000" data-y="220000" data-z="0" data-rotate-z="0" data-rotate-x="180" data-rotate-z="0" data-scale="10">
+				<h1> ¿Qué podemos usar?</h1>
+				<h2> VANETs ubicuas. </h2>
+				<h2> Dispositivos Móviles Android. </h2>
+				<div id="goright">
+					<img id="android" src="img/android.png" alt="android" height="200" width="150">
+				</div>
+				
+			</div>
+			<div id="escenario" class="step" data-x="20000" data-y="240000" data-z="0" data-rotate-x="0" data-rotate-z="45" data-rotate-x="90" data-scale="10">
+				<h1> Escenario </h1>
+				<h2> Intersecciones. </h2>
+				<div id="centrarimagen"> 
+					<img id="cruce" src="img/cruce.jpg" alt="cruce" height="400" width="500" style="margin: 30px 0px 20px 0px;">
+				</div>
+				
+				
+			</div>
+
+			<div id="intersecciones" class="step" data-x="30000" data-y="250000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+				<h1> Intersecciones </h1>
+				<h2> Área en la que confluyen dos o más vías <span>(ramales)</span>.</h2>
+				<div id="centrarimagen"> 
+					<img id="cruce1" src="img/cruce1.png" alt="cruce1" height="200" width="290" style="margin-top: 30px;">
+					<img id="cruce2" src="img/cruce1.jpg" alt="cruce2" height="200" width="290" style="margin-top: 30px; margin-left: 30px;">
+				</div>
+				<div id="centrarimagen"> 
+					<img id="cruce3" src="img/cruce2.jpg" alt="cruce3" height="200" width="290" style="margin-top: 20px;">
+					<img id="cruce4" src="img/cruce3.jpg" alt="cruce4" height="200" width="290" style="margin-top: 20px;  margin-left: 30px;">
+				</div>
+			
+			</div>
+
+			<div id="crossroad" class="step" data-x="30000" data-y="20000" data-z="0" data-rotate-y="0" data-rotate-z="0"  data-rotate-x="0" data-scale="10">
+				<div id="centrarimagen">
+					<h1> Asistente para intersecciones </h1>
+					<h2> Vehículos que circulen con la aplicación. </h2>
+					<img id="fondo" src="img/fondofinal.png" alt="fondo" height="500" width="750" style="margin-top: 20px;">
+
+				</div>
+			</div>
+			
+			<div id="objetivos" class="step" data-x="6000" data-y="240000" data-z="0" data-rotate-y="0" data-rotate-z="0"  data-rotate-x="0" data-scale="5">
+				<h1>Objetivos</h1>
+				<h2>- Controlar y agilizar el paso. </h2>
+				<h2>- Garantizar fiabilidad. </h2>
+				<div style="margin-left: 30px;">
+					<h3> (Entorno complejo para las comunicaciones) </h3>
+				</div>
+				<h2>- Mejorar seguridad vial. </h2>
+				<div id="goright">
+					<img id="car" src="img/car4.gif" alt="car4" height="260" width="280">
+				</div>
+			</div>
+
+			<div id="algoritmo" class="step" data-x="100" data-y="240000" data-rotate-y="180" data-rotate-z="0" data-scale="5">
+				<div id="centrarimagen">
+					<h1> Algoritmo de prioridades de paso </h1>
+					<img id="algoritmo" src="img/algoritmo.png" alt="algoritmo" height="600" width="900">
+
+				</div>
+			
+			</div>
+
+			<div id="sistema" class="step" data-x="100" data-y="260000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+				<div id="centrarimagen">
+					<h1> Sistema </h1>
+					<img id="sistemaglobal" src="img/sistemaglobal.png" alt="sistemaglobal" height="400" width="650">
+				</div>
+							
+			</div>
+
+			<div id="crossroadstandar" class="step" data-x="100" data-y="270000" data-z="0" data-rotate-y="180" data-rotate-z="0" data-scale="10">
+				<h1> CrossRoad Estándar </h1>
+				<h2> - Localización del vehículo. </h2>
+				<h2> - Localización de los cruces cercanos. </h2>
+				<h2> - Información de prioridad. </h2>
+				<div style="margin-left: 30px;">
+					<h3>(Mensaje por pantalla y de voz)</h3>
+				</div>
+				<h2> - Información de señales. </h2>
+				<h2> - Alerta de vehículos de emergencia. </h2>
+				<h2> - Otras funcionalidades :</h2>
+				<div style="margin-left: 30px;">
+					<h3>(Información del tráfico, vista satélite y 3D)</h3>
+				</div>
+				<div id="gorighttop">
+					<img id="logo" src="img/logo1.png" alt="logo" height="200" width="200">
+				</div>
+				
+			</div>
+
+			<div id="crossroadstandar2" class="step" data-x="100" data-y="280000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+				<h1> CrossRoad Estándar </h1>
+				<div id="centrarimagen">
+					<img id="playstore" src="img/playstore.png" alt="playstore" height="230" width="800">
+					<img id="app" src="img/app.png" alt="app" height="220" width="800">
+
+				</div>
+			</div>
+
+			<div id="crossroademergency" class="step" data-x="100" data-y="290000" data-z="0" data-rotate-y="180" data-rotate-z="0" data-scale="10">
+				<h1> CrossRoad Emergencia </h1>
+				<h2> - Botón para activar/desactivar el modo emergencia.</h2>
+				<div id="gorighttop4">
+					<img id="logo" src="img/logo2.png" alt="logo" height="200" width="200">
+				</div>
+				<div id="centrarimagen">
+					<img id="emergencia" src="img/emergencia1.png" alt="emergencia1" height="300" width="170" style="margin-top: 80px; margin-right: 200px;">
+					<img id="emergencia1" src="img/emergencia2.png" alt="emergencia1" height="300" width="170" style="margin-top: 80px;">
+				</div>
+			</div>
+
+			<div id="diagramaflujo" class="step" data-x="-12000" data-y="290000" data-z="1000" data-rotate-y="180" data-rotate-x="180" data-scale="5">
+				<div id="centrarimagen">
+					<h1> Diagrama de flujo de la comunicación </h1>
+					<img id="flujo" src="img/flujo.png" alt="flujo" height="600" width="900">
+				</div>
+			</div>
+
+			<div id="web" class="step" data-x="100" data-y="300000" data-z="0" data-rotate-y="180" data-rotate-z="0" data-scale="10">
+				<div id="centrarimagen">
+					<h1> Página Web </h1>
+					<img id="web" src="img/pagprincipal.png" alt="web" height="400" width="700">
+				</div>
+				
+			
+			</div>
+			
+			<div id="web2" class="step" data-x="100" data-y="310000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+				<h1> Plataforma </h1>
+				<h2> - Login para acceder a los recursos.</h2>
+				<div style="margin-left: 30px;">
+					<h3>(Registro interno)</h3>
+				</div>
+				<h2> - Añadir/eliminar usuarios, cruces, señales, vehículos, vehículos especiales. </h2>
+				<h2> - Mapa con todos los trackings. </h2>
+				<h2> - Mapa con los tracking de un vehículo. </h2>
+				<div style="margin-left: 30px;">
+					<h3>(Rango de tiempo)</h3>
+				</div>
+				<h2> - Búsqueda de vehículos. </h2>
+				<h2> - Listado de vehículos, trackings, señales y vehículos.</h2>
+			</div>
+
+		
+
+			<div id="web3" class="step" data-x="100" data-y="320000" data-z="0" data-rotate-y="0" data-rotate-z="0" data-scale="10">
+				<h1> Servicio Web </h1>
+				<h2> - Registro de vehículos. </h2>
+				<h2> - Cálculo de eventos cercanos. </h2>
+				<div style="margin-left: 30px;">
+					<h3>(Vehículos cercanos, señales de tráfico, <br> cruces, vehículos en emergencia)</h3>
+				</div>
+				<h2> - Cambio de modo de emergencia. </h2>
+				<div id="gorighttop2">
+					<img id="server" src="img/server.gif" alt="server" height="200" width="250">
+				</div>
+			</div>
+
+			<div id="conclusion" class="step" data-x="-9000" data-y="260000" data-z="-40000" data-rotate-z="90" data-rotate-x="0" data-scale="10">
+				<h1><span>Conclusions </span></h1>
+				<h2> - Intelligent Transport Systems and <span>intersections</span>.</h2>
+				<h2> - Focusing on <span>VANETs</span>. </h2>
+				<div style="margin-left: 30px;">
+					<h3> (architecture, operation and use cases) </h3>
+				</div>
+				<h2> - Alternatives avalaible to solve the problem of road intersections. </h2>
+				<h2> - System for assistance in intersections.</h2>
+				<div style="margin-left: 30px;">
+					<h3> The result is building an <span>ubiquitous VANET</span></h3>
+				</div>
+			</div>
+            
+			<div id="conclusion2" class="step" data-x="-9000" data-y="270000" data-z="-180000" data-rotate-z="90" data-rotate-x="90" data-scale="3">
+				<h1><span>Future work </span></h1>
+				<h2> - Adding an option to enable/disable emergency mode via <span>NFC</span>tags.</h2>
+				<h2> - Integration with other platforms. </h2>
+				<h2> - Creating an <span>API</span> to be used by other applications.</h2>
+				<h2> - Integration with <span>RFID</span> tags and sensors to control traffic lights and traffic signals <span>( I2V / V2I )</span>. </h2>
+			</div>
+          
+ 			<div id="gracias" class="step" data-x="-9000" data-y="270000" data-z="-180000" data-rotate-z="0" data-rotate-x="0" data-scale="3">
+				<h1> Gracias </h1>
+				<h2> ¿Preguntas? </h2>
+			</div>
+
+       <!--      <div id="fin"class="step" data-x="-10000" data-y="270000" data-z="-2000000" data-rotate-y="0" data-rotate-z="0" data-scale="10"> 
+				<h1> Gracias por su atenci&oacuten </h1>
+				<a href="http://fasttriaje.herokuapp.com/" id="left"> FastTriaje </a> 
+				<a href="https://play.google.com/store/apps/details?id=com.alexandra.rivero.fastdiagnosis" id="right"> App PlayStore</a>
+                <h3> Alexandra Rivero</h3>
+            </div>
+
+         -->
+		</div>	
+
+				
+		<div class="hint">
+			<p>
+				Use a spacebar or arrow keys to navigate
+			</p>
+		</div>
+
+		<script>
+			if ("ontouchstart" in document.documentElement) {
+				document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+			}
+		</script>
+
+		<script src="js/impress.js"></script>
+		<script>
+			impress().init();
+		</script>
+
+	</body>
+</html>
+
