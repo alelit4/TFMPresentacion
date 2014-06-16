@@ -262,7 +262,7 @@ code {
 }
 
 
-#introduction h1, #tecnologias h1 {
+#introduction h1 {
     font-size: 90px;
 }
 
@@ -311,7 +311,7 @@ code {
     font-size: 80px;
 }
 
-#seguridad h2, #intersecciones h2, #crossroad h2, #crossroadstandar h2, #crossroademergency h2, #web2 h2, #conclusion h2, #conclusion2 h2{
+#seguridad h2, #intersecciones h2, #crossroad h2, #crossroadstandar h2, #crossroademergency h2, #web2 h2, #conclusion h2, #conclusion2 h2, #tecnologias h2{
     font-size: 50px;
 }
 
@@ -319,7 +319,7 @@ code {
     font-size: 70px;
 }
 
-#diagramaflujo h1{
+#diagramaflujo h1, #tecnologias h1{
     font-size: 68px;
 }
 
