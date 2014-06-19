@@ -326,6 +326,11 @@ code {
     font-size: 50px;
 }
 
+#algoritmo img{ 
+background-color: #FFFFFF;
+padding: 15px 15px 15px 15px;
+}
+
  #algoritmo h1, #conclusion h1{
     font-size: 70px;
 }
